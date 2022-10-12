@@ -1,11 +1,16 @@
 package construtores;
 
+import java.time.LocalDate;
+
 public class Pessoa {
     private String nome;
     private Integer idade;
     private String cpf;
     private String endereco;
     private Double altura;
+
+    private LocalDate dataNascimento = LocalDate.of(2002,2,12);
+    private String data = "02/02/2022";
 
     public Pessoa(){
     }
@@ -32,5 +37,7 @@ public class Pessoa {
         this.cpf = cpf;
         this.endereco = endereco;
         this.altura = altura;
+        data.equals()
+
     }
 }
