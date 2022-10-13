@@ -16,7 +16,7 @@ public class MainLoja {
         lojaObjeto.adicionaProduto(pastaProduto);
         System.out.println(lojaObjeto.produtos);
 
-        lojaObjeto.removeProdutoPorId(0);
+        lojaObjeto.removeProduto(0);
         System.out.println(lojaObjeto.produtos);
 
     }
