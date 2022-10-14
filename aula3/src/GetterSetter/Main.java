@@ -1,3 +1,5 @@
+package GetterSetter;
+
 public class Main {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
@@ -7,6 +9,9 @@ public class Main {
         Funcionario funcionario4 = new Funcionario("Anderson", 4100.0);
 
         funcionario.adicionaValorNome("Silas");
+        if (funcionario.getFuncao() == null){
+            funcionario.setFuncao("Estagiário");
+        }
 
         funcionario.setSalario(5312.13);
         funcionario1.setSalario(4554.34);

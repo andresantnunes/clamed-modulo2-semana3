@@ -1,9 +1,12 @@
+package GetterSetter;
+
 public class Funcionario {
     //Atributos
     private String nome;
     private String funcional;
     private Double salario;
     private Double saldo;
+    private String funcao;
 
     //Construtores
     //Construtor vazio ou Default
@@ -81,4 +84,11 @@ public class Funcionario {
 //    }
 
 
+    public String getFuncao() {
+        return funcao;
+    }
+
+    public void setFuncao(String funcao) {
+        this.funcao = funcao;
+    }
 }
