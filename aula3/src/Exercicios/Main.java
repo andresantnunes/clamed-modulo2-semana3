@@ -15,6 +15,7 @@ public class Main {
         Clinica clinica = new Clinica();
         clinica.listaClientes.add(cliente);
         clinica.listaClientes.add(cliente1);
+        clinica.listaClientes.add(cliente1);
 
         clinica.categorizaClientes();
     }

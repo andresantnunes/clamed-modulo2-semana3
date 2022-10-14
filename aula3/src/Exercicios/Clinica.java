@@ -37,14 +37,12 @@ public class Clinica {
                     categoriaObeso3.add(cliente);
                     break;
             }
-
-            categoriaMuitoMagro.forEach(c -> System.out.println(c) );
-            categoriaNormal.forEach(c -> System.out.println(c.nome+","+c.IMC()) );
-            categoriaSobrePeso.forEach(c -> System.out.println(c) );
-            categoriaObeso1.forEach(c -> System.out.println(c) );
-            categoriaObeso2.forEach(c -> System.out.println(c) );
-            categoriaObeso3.forEach(c -> System.out.println(c) );
-
         }
+        categoriaMuitoMagro.forEach(c -> System.out.println(c) );
+        categoriaNormal.forEach(c -> System.out.println(c.nome+","+c.IMC()) );
+        categoriaSobrePeso.forEach(c -> System.out.println(c) );
+        categoriaObeso1.forEach(c -> System.out.println(c) );
+        categoriaObeso2.forEach(c -> System.out.println(c) );
+        categoriaObeso3.forEach(c -> System.out.println(c) );
     }
 }
